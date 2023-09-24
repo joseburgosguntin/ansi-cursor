@@ -6,6 +6,4 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-# ansi-parser = "0.8.0"
 ansi-parser = { git = "https://github.com/joseburgosguntin/ansi-parser" }
-tokio = { version = "1.0", features = ["io-util", "process"] }
